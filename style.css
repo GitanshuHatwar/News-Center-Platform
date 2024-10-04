@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark : #1d69a3;
+}
+
+body{
+    font-family: "Poppins",sans-serif;
+    color: var(--primary-text-color);
+}
+
+
+p{
+    font-family: "Roboto",sans-serif;
+    color: var(--secondary-text-color);
+    line-height:  1.4rem; ;
+
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+/*Code Credits to Gitanshu Hatar , date - 5/09/2024*/
+
+
+.container{
+    max-width: 1180px;
+    margin-inline : auto;
+    overflow: hidden;
+}
+
+
+nav {
+    background-color: #f3faff;
+    box-shadow: 0 0 4px #13426b;
+    position: fixed;
+    top: 0; 
+    z-index: 99;
+    left: 0;
+    right: 0;
+}
+
+.main-nav{
+    justify-content: space-between;
+    padding-block: 8px;
+}
+
+
+.team-logo img{
+    width: 160px;
+    height: 80px;
+}
+
+
+.nav-links ul{
+    gap: 18px;
+}
+
+
+.hover-link{
+    cursor: pointer;
+}
+
+
+.hover-link:hover{
+    color: var(--secondary-text-color);
+}
+
+
+.hover-link:active{
+    color: red;
+}
+.nav-item.active {
+    color: var(--accent-color);
+}
+
+
+.search-bar {
+    height: 32px;
+    gap: 8px;
+}
+
+.news-input{
+    width: 200px;
+    height: 100%;
+    padding-inline: 12px;
+    border-radius: 4px;
+    border: 2px solid #224666 ;
+    font-family: "Roboto",sans-serif;
+}
+.search-button{
+    background-color: var(--accent-color);
+    color: white;
+    padding: 8px 24px;
+    border :none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: "Roboto",sans-serif;
+
+}
+
+.search-button:hover{
+    background-color: var(--accent-color-dark);
+}
+
+main{
+    padding-block: 20px;
+    margin-top: 100px;
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+    
+}
+.card{
+    margin: 10px;;
+    width: 350px;
+    min-height: 400px;
+    box-shadow: 0 0 5px #d4ecff;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff;
+    overflow: hidden;
+    transition : all 0.3s ease;
+
+}
+.card:hover{
+    box-shadow: 2px 2px 8px #d4ecff;
+    background-color: #f9fdff;
+    transform: translateY(-4px);
+
+}
+.card-header img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+
+}
+.card-content{
+    padding: 12px;
+
+}
+.news-source{
+    margin-block: 12px;;
+}
