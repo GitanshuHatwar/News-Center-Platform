@@ -1,1 +1,2 @@
-This website is a modern news platform called "The News Center" that delivers curated articles on various topics. The design features a fixed navigation bar at the top with a logo, several topic links for easy navigation, and a search bar for quick access to specific news. The layout is clean and minimalist, utilizing a light color scheme with accents in blue to create a calm and professional atmosphere.
+"The News Center" is a sleek, modern news hub delivering curated, real-time content across trending topics. Featuring a sticky nav bar, intuitive UX, and smart search, it blends minimalist design with a calming blue-accented palette for a polished, professional user experience.
+
